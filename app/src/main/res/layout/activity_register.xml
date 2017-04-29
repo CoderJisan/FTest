@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jisan.ftest.Register">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="name"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:hint="Location"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/name"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/blood"
+        android:hint="Your blood Group"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/location"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contact"
+        android:hint="Contact No."
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/blood"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/regBtn"
+        android:text="OKK"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/contact"
+        android:layout_marginTop="80dp"/>
+
+
+</RelativeLayout>
